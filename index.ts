@@ -1,1 +1,0 @@
-export { PictureMaker } from './src';

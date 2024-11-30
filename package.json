@@ -2,11 +2,20 @@
     "name": "pictures_maker",
     "version": "1.0.0",
     "description": "pictures maker",
-    "main": "./index.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "dependencies": {
         "puppeteer": "23.5.3",
         "fs": "^0.0.1-security",
         "utils": "https://github.com/alexanderPolosatov/utils.git"
     },
-    "license": "MIT"
+    "scripts": {
+        "build": "tsc",
+        "postinstall": "npm run build"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.14.9",
+        "typescript": "^5.5.3"
+    }
 }
