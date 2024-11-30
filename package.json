@@ -1,0 +1,12 @@
+{
+    "name": "pictures_maker",
+    "version": "1.0.0",
+    "description": "pictures maker",
+    "main": "./index.js",
+    "dependencies": {
+        "puppeteer": "23.5.3",
+        "fs": "^0.0.1-security",
+        "utils": "https://github.com/alexanderPolosatov/utils.git"
+    },
+    "license": "MIT"
+}
